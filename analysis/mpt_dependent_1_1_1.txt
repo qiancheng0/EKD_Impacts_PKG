@@ -1,0 +1,99 @@
+
+~~~~~~~~~~ dict: degree analysis ~~~~~~~~~~
+
+===== key: Type Match =====
+total consistent rate: 416, total: 1200, ratio: 34.67
+error: abstention rate: 24, total: 784, ratio: 3.06
+       - deviate: 7, invalid ratio: 29.17, total ratio: 0.58
+error: variation rate: 760, total: 784, ratio: 96.94
+       - deviate: 154, invalid ratio: 20.26, total ratio: 12.83
+total_deviate rate: 186, total: 1200, ratio: 15.5
+average confidence: 79.35
+average confidence of correct: 90.78
+average confidence of hallucination: 92.2
+===== key: Type Shift =====
+total consistent rate: 454, total: 1200, ratio: 37.83
+error: abstention rate: 25, total: 746, ratio: 3.35
+       - deviate: 3, invalid ratio: 12.0, total ratio: 0.25
+error: variation rate: 721, total: 746, ratio: 96.65
+       - deviate: 28, invalid ratio: 3.88, total ratio: 2.33
+total_deviate rate: 34, total: 1200, ratio: 2.83
+average confidence: 77.82
+average confidence of correct: 90.48
+average confidence of hallucination: 86.46
+
+~~~~~~~~~~ dict: position analysis ~~~~~~~~~~
+
+===== key: par1_hop1 =====
+total consistent rate: 179, total: 600, ratio: 29.83
+error: abstention rate: 18, total: 421, ratio: 4.28
+       - deviate: 3, invalid ratio: 16.67, total ratio: 0.5
+error: variation rate: 403, total: 421, ratio: 95.72
+       - deviate: 34, invalid ratio: 8.44, total ratio: 5.67
+total_deviate rate: 51, total: 600, ratio: 8.5
+average confidence: 78.11
+average confidence of correct: 91.46
+average confidence of hallucination: 94.87
+===== key: par2_hop1 =====
+total consistent rate: 206, total: 600, ratio: 34.33
+error: abstention rate: 14, total: 394, ratio: 3.55
+       - deviate: 3, invalid ratio: 21.43, total ratio: 0.5
+error: variation rate: 380, total: 394, ratio: 96.45
+       - deviate: 21, invalid ratio: 5.53, total ratio: 3.5
+total_deviate rate: 28, total: 600, ratio: 4.67
+average confidence: 76.24
+average confidence of correct: 89.24
+average confidence of hallucination: 77.4
+===== key: triangle_hop1 =====
+total consistent rate: 258, total: 600, ratio: 43.0
+error: abstention rate: 12, total: 342, ratio: 3.51
+       - deviate: 4, invalid ratio: 33.33, total ratio: 0.67
+error: variation rate: 330, total: 342, ratio: 96.49
+       - deviate: 82, invalid ratio: 24.85, total ratio: 13.67
+total_deviate rate: 95, total: 600, ratio: 15.83
+average confidence: 81.32
+average confidence of correct: 91.37
+average confidence of hallucination: 92.91
+===== key: child_hop1 =====
+total consistent rate: 227, total: 600, ratio: 37.83
+error: abstention rate: 5, total: 373, ratio: 1.34
+       - deviate: 0, invalid ratio: 0.0, total ratio: 0.0
+error: variation rate: 368, total: 373, ratio: 98.66
+       - deviate: 45, invalid ratio: 12.23, total ratio: 7.5
+total_deviate rate: 46, total: 600, ratio: 7.67
+average confidence: 78.67
+average confidence of correct: 90.41
+average confidence of hallucination: 93.85
+
+~~~~~~~~~~ dict: method analysis ~~~~~~~~~~
+
+===== key: Object =====
+total consistent rate: 235, total: 800, ratio: 29.38
+error: abstention rate: 30, total: 565, ratio: 5.31
+       - deviate: 10, invalid ratio: 33.33, total ratio: 1.25
+error: variation rate: 535, total: 565, ratio: 94.69
+       - deviate: 129, invalid ratio: 24.11, total ratio: 16.12
+total_deviate rate: 161, total: 800, ratio: 20.12
+average confidence: 78.81
+average confidence of correct: 90.65
+average confidence of hallucination: 92.34
+===== key: Subject =====
+total consistent rate: 358, total: 800, ratio: 44.75
+error: abstention rate: 11, total: 442, ratio: 2.49
+       - deviate: 0, invalid ratio: 0.0, total ratio: 0.0
+error: variation rate: 431, total: 442, ratio: 97.51
+       - deviate: 20, invalid ratio: 4.64, total ratio: 2.5
+total_deviate rate: 21, total: 800, ratio: 2.62
+average confidence: 79.33
+average confidence of correct: 91.15
+average confidence of hallucination: 90.62
+===== key: Unrelated =====
+total consistent rate: 277, total: 800, ratio: 34.62
+error: abstention rate: 8, total: 523, ratio: 1.53
+       - deviate: 0, invalid ratio: 0.0, total ratio: 0.0
+error: variation rate: 515, total: 523, ratio: 98.47
+       - deviate: 33, invalid ratio: 6.41, total ratio: 4.12
+total_deviate rate: 38, total: 800, ratio: 4.75
+average confidence: 77.63
+average confidence of correct: 90.06
+average confidence of hallucination: 87.08

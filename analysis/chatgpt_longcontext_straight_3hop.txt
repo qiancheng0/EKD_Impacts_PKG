@@ -1,0 +1,65 @@
+
+~~~~~~~~~~ dict: degree analysis ~~~~~~~~~~
+
+===== key: Type Match =====
+total consistent rate: 973, total: 1800, ratio: 54.06
+error: abstention rate: 297, total: 827, ratio: 35.91
+       - deviate: 41, invalid ratio: 13.8, total ratio: 2.28
+error:  variation rate: 530, total: 827, ratio: 64.09
+       - deviate: 273, invalid ratio: 51.51, total ratio: 15.17
+total_deviate rate: 366, total: 1800, ratio: 20.33
+===== key: Type Shift =====
+total consistent rate: 1062, total: 1800, ratio: 59.0
+error: abstention rate: 435, total: 738, ratio: 58.94
+       - deviate: 49, invalid ratio: 11.26, total ratio: 2.72
+error:  variation rate: 303, total: 738, ratio: 41.06
+       - deviate: 60, invalid ratio: 19.8, total ratio: 3.33
+total_deviate rate: 109, total: 1800, ratio: 6.06
+
+~~~~~~~~~~ dict: position analysis ~~~~~~~~~~
+
+===== key: hop1 =====
+total consistent rate: 746, total: 1200, ratio: 62.17
+error: abstention rate: 223, total: 454, ratio: 49.12
+       - deviate: 41, invalid ratio: 18.39, total ratio: 3.42
+error:  variation rate: 231, total: 454, ratio: 50.88
+       - deviate: 73, invalid ratio: 31.6, total ratio: 6.08
+total_deviate rate: 147, total: 1200, ratio: 12.25
+===== key: hop2 =====
+total consistent rate: 642, total: 1200, ratio: 53.5
+error: abstention rate: 292, total: 558, ratio: 52.33
+       - deviate: 47, invalid ratio: 16.1, total ratio: 3.92
+error:  variation rate: 266, total: 558, ratio: 47.67
+       - deviate: 116, invalid ratio: 43.61, total ratio: 9.67
+total_deviate rate: 182, total: 1200, ratio: 15.17
+===== key: hop3 =====
+total consistent rate: 647, total: 1200, ratio: 53.92
+error: abstention rate: 217, total: 553, ratio: 39.24
+       - deviate: 2, invalid ratio: 0.92, total ratio: 0.17
+error:  variation rate: 336, total: 553, ratio: 60.76
+       - deviate: 144, invalid ratio: 42.86, total ratio: 12.0
+total_deviate rate: 146, total: 1200, ratio: 12.17
+
+~~~~~~~~~~ dict: method analysis ~~~~~~~~~~
+
+===== key: Object =====
+total consistent rate: 394, total: 1200, ratio: 32.83
+error: abstention rate: 345, total: 806, ratio: 42.8
+       - deviate: 59, invalid ratio: 17.1, total ratio: 4.92
+error:  variation rate: 461, total: 806, ratio: 57.2
+       - deviate: 257, invalid ratio: 55.75, total ratio: 21.42
+total_deviate rate: 357, total: 1200, ratio: 29.75
+===== key: Subject =====
+total consistent rate: 837, total: 1200, ratio: 69.75
+error: abstention rate: 203, total: 363, ratio: 55.92
+       - deviate: 17, invalid ratio: 8.37, total ratio: 1.42
+error:  variation rate: 160, total: 363, ratio: 44.08
+       - deviate: 29, invalid ratio: 18.12, total ratio: 2.42
+total_deviate rate: 53, total: 1200, ratio: 4.42
+===== key: Unrelated =====
+total consistent rate: 804, total: 1200, ratio: 67.0
+error: abstention rate: 184, total: 396, ratio: 46.46
+       - deviate: 14, invalid ratio: 7.61, total ratio: 1.17
+error:  variation rate: 212, total: 396, ratio: 53.54
+       - deviate: 47, invalid ratio: 22.17, total ratio: 3.92
+total_deviate rate: 65, total: 1200, ratio: 5.42

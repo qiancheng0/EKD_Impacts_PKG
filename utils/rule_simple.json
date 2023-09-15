@@ -1,0 +1,117 @@
+{   
+    "multi_rules": {
+        "country": [
+            ["Which is the first year does ## invade []?", "country", "year", "Choose from [] some countries that has ever been invaded by ## in histroy."],
+            ["What's the year when ## the first time formally establish diplomatic relations with []?", "country", "year", "Choose from [] some countries that has formally establish diplomatic relations with ## ?"],
+            ["Who is the president / leader of ## in the year []?", "year", "person", "Choose from [] some years that ## is already founded / independent."]
+        ],
+        "year": [
+            ["Who is the president / leader of [] in the year ##?", "country", "person", "Choose from [] some countries that have a president / leader in the year ##."],
+            ["Who is the headmaster of [] in the year ##?", "school", "person", "Choose from [] some universities that is already founded before the year ##."],
+            ["Who is the CEO of [] in the year ##?", "company", "person", "Choose from [] some companies that is already founded before the year ##."]
+        ],
+        "school": [
+            ["Who is the headmaster of ## in the year []?", "year", "person", "Choose from [] some years that ## is already founded."]
+        ],
+        "company": [
+            ["Who is the CEO of ## in the year []?", "year", "person", "Choose from [] some years that ## is already founded."]
+        ]
+    },
+    "country": [
+        ["the capital is", "city"],
+        ["is founded / become independent in which year", "year"],
+        ["the official / most commonly spoken language is", "language"],
+        ["the national anthem is", "song"],
+        ["the colors on the national flag are (may be multiple)", "color"],
+        ["has the longest river named", "river"],
+        ["has the highest mountain named", "mountain"],
+        ["the countries in the east that shares boarder with it (may be multiple)", "country"]
+    ],
+    "city": [
+        ["belongs to which country", "country"],
+        ["has the largest airport named", "airport"],
+        ["has the largest (by area) university / college named", "school"],
+        ["the time zone of this city in UTC", "time zone"],
+        ["what is the largest company (by people) based in this city", "company"]
+    ],
+    "year": [
+        ["the US president this year named", "person"],
+        ["this year's Oscar best actors are (may have multiple)", "person"],
+        ["this year's Oscar Outstanding Pictures is (the first one in alphabetical order)", "film"],
+        ["this year's NBA championship is which team", "sport team"],
+        ["the first Olympic Games hosting city from this year", "city"]
+    ],
+    "language": [
+        ["the ISO 639-1 code", "other"],
+        ["the ISO 639-2 code", "other"],
+        ["the translation of 开心 in this language", "other"]
+    ],
+    "song": [
+        ["the composer of it", "person"],
+        ["the lyricist of it", "person"],
+        ["the year it was written", "year"],
+        ["is released by which music company", "company"]
+    ],
+    "color": [
+        ["it's contrast color is", "other"],
+        ["the color code in RGB", "other"],
+        ["combined with yellow will yield what color", "other"]
+    ],
+    "river": [
+        ["is located on which continent", "continent"],
+        ["is originated from which mountain", "mountain"],
+        ["is originated from which country", "country"]
+    ],
+    "mountain": [
+        ["is located on which continent", "continent"],
+        ["is located in which countries (may have multiple)", "country"],
+        ["the highest peak named", "other"]
+    ],
+    "person": [
+        ["is born in which city", "city"],
+        ["is born in which year", "year"],
+        ["is married to", "other"],
+        ["go to which unverisity / college as graduate student", "school"],
+        ["works in which company (the first one in time order)", "company"]
+    ],
+    "airport": [
+        ["the abbreviation for this airport", "other"]
+    ],
+    "architect": [
+        ["is designed by", "person"],
+        ["the year it was built (completed)", "year"]
+    ],
+    "school": [
+        ["is located in which city", "city"],
+        ["the year it was founded", "year"],
+        ["the first headmaster of this university / college named", "person"],
+        ["the abbreviation for this university / college", "other"]
+    ],
+    "time zone": [
+        ["the west most longitude of this time zone", "other"],
+        ["the east most longitude of this time zone", "other"],
+        ["the northern most country in this time zone", "country"],
+        ["the southern most country in this time zone", "country"]
+    ],
+    "sport team": [
+        ["it is based in which city", "city"],
+        ["it is founded in which year", "year"]
+    ],
+    "continent": [
+        ["the most populated country", "country"],
+        ["the largest city by population", "city"],
+        ["the longest river named", "river"],
+        ["the highest mountain named", "mountain"]
+    ],
+    "film": [
+        ["the director is", "person"],
+        ["has the theme song named", "song"],
+        ["the year it was released", "year"],
+        ["produced by which film company", "company"]
+    ],
+    "company": [
+        ["is founded in which year", "year"],
+        ["the most recent CEO's name", "person"],
+        ["its head quarter located in which city", "city"]
+    ]
+}

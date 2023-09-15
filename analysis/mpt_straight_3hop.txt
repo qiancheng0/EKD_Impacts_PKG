@@ -1,0 +1,89 @@
+
+~~~~~~~~~~ dict: degree analysis ~~~~~~~~~~
+
+===== key: Type Match =====
+total consistent rate: 760, total: 1800, ratio: 42.22
+error: abstention rate: 40, total: 1040, ratio: 3.85
+       - deviate: 13, invalid ratio: 32.5, total ratio: 0.72
+error:  variation rate: 1000, total: 1040, ratio: 96.15
+       - deviate: 302, invalid ratio: 30.2, total ratio: 16.78
+total_deviate rate: 376, total: 1800, ratio: 20.89
+average confidence: 80.99
+average confidence of correct: 89.28
+average confidence of deviation: 91.63
+===== key: Type Shift =====
+total consistent rate: 840, total: 1800, ratio: 46.67
+error: abstention rate: 61, total: 960, ratio: 6.35
+       - deviate: 8, invalid ratio: 13.11, total ratio: 0.44
+error:  variation rate: 899, total: 960, ratio: 93.65
+       - deviate: 75, invalid ratio: 8.34, total ratio: 4.17
+total_deviate rate: 90, total: 1800, ratio: 5.0
+average confidence: 77.78
+average confidence of correct: 87.8
+average confidence of deviation: 81.88
+
+~~~~~~~~~~ dict: position analysis ~~~~~~~~~~
+
+===== key: hop1 =====
+total consistent rate: 485, total: 1200, ratio: 40.42
+error: abstention rate: 43, total: 715, ratio: 6.01
+       - deviate: 11, invalid ratio: 25.58, total ratio: 0.92
+error:  variation rate: 672, total: 715, ratio: 93.99
+       - deviate: 123, invalid ratio: 18.3, total ratio: 10.25
+total_deviate rate: 173, total: 1200, ratio: 14.42
+average confidence: 78.47
+average confidence of correct: 88.2
+average confidence of deviation: 89.33
+===== key: hop2 =====
+total consistent rate: 552, total: 1200, ratio: 46.0
+error: abstention rate: 38, total: 648, ratio: 5.86
+       - deviate: 10, invalid ratio: 26.32, total ratio: 0.83
+error:  variation rate: 610, total: 648, ratio: 94.14
+       - deviate: 128, invalid ratio: 20.98, total ratio: 10.67
+total_deviate rate: 162, total: 1200, ratio: 13.5
+average confidence: 80.47
+average confidence of correct: 89.49
+average confidence of deviation: 90.6
+===== key: hop3 =====
+total consistent rate: 563, total: 1200, ratio: 46.92
+error: abstention rate: 20, total: 637, ratio: 3.14
+       - deviate: 0, invalid ratio: 0.0, total ratio: 0.0
+error:  variation rate: 617, total: 637, ratio: 96.86
+       - deviate: 126, invalid ratio: 20.42, total ratio: 10.5
+total_deviate rate: 131, total: 1200, ratio: 10.92
+average confidence: 79.24
+average confidence of correct: 87.82
+average confidence of deviation: 89.36
+
+~~~~~~~~~~ dict: method analysis ~~~~~~~~~~
+
+===== key: Object =====
+total consistent rate: 423, total: 1200, ratio: 35.25
+error: abstention rate: 55, total: 777, ratio: 7.08
+       - deviate: 16, invalid ratio: 29.09, total ratio: 1.33
+error:  variation rate: 722, total: 777, ratio: 92.92
+       - deviate: 243, invalid ratio: 33.66, total ratio: 20.25
+total_deviate rate: 297, total: 1200, ratio: 24.75
+average confidence: 80.15
+average confidence of correct: 88.07
+average confidence of deviation: 92.52
+===== key: Subject =====
+total consistent rate: 648, total: 1200, ratio: 54.0
+error: abstention rate: 22, total: 552, ratio: 3.99
+       - deviate: 3, invalid ratio: 13.64, total ratio: 0.25
+error:  variation rate: 530, total: 552, ratio: 96.01
+       - deviate: 48, invalid ratio: 9.06, total ratio: 4.0
+total_deviate rate: 69, total: 1200, ratio: 5.75
+average confidence: 80.95
+average confidence of correct: 89.9
+average confidence of deviation: 84.37
+===== key: Unrelated =====
+total consistent rate: 529, total: 1200, ratio: 44.08
+error: abstention rate: 24, total: 671, ratio: 3.58
+       - deviate: 2, invalid ratio: 8.33, total ratio: 0.17
+error:  variation rate: 647, total: 671, ratio: 96.42
+       - deviate: 86, invalid ratio: 13.29, total ratio: 7.17
+total_deviate rate: 100, total: 1200, ratio: 8.33
+average confidence: 77.1
+average confidence of correct: 87.34
+average confidence of deviation: 85.69
